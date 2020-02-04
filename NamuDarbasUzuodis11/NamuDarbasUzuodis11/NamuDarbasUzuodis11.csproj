@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4A5AF807-7625-4CB0-B14B-FD5BBBBD999E}</ProjectGuid>
+    <ProjectGuid>{EDAD52EE-8AFC-4537-90D4-FB71B193E704}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>UMS</RootNamespace>
-    <AssemblyName>UMS</AssemblyName>
+    <RootNamespace>NamuDarbasUzuodis11</RootNamespace>
+    <AssemblyName>NamuDarbasUzuodis11</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -50,9 +50,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\UMSBusinesLayer\UMSBusinesLayer.csproj">
-      <Project>{1c4442ce-e09f-4c9f-9210-abb4cc345d03}</Project>
-      <Name>UMSBusinesLayer</Name>
+    <ProjectReference Include="..\ClsLibrary\ClsLibrary.csproj">
+      <Project>{384e2d95-36f1-435b-b7c3-565ca26353c1}</Project>
+      <Name>ClsLibrary</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
