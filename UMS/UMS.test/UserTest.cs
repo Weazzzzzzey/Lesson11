@@ -10,6 +10,7 @@ namespace UMS.test
         [TestMethod]
         public void TestingGetRights()
         {
+            
             // Arrange
             User user = new User(1, new Rights(0), "Vasia");
 
