@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NamuDarbasUzuodis11", "Namu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClsLibrary", "ClsLibrary\ClsLibrary.csproj", "{384E2D95-36F1-435B-B7C3-565CA26353C1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClsLibrary.Test", "ClsLibrary.Test\ClsLibrary.Test.csproj", "{48964FAA-028C-42E1-85BD-ED0E883ED4F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{384E2D95-36F1-435B-B7C3-565CA26353C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{384E2D95-36F1-435B-B7C3-565CA26353C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{384E2D95-36F1-435B-B7C3-565CA26353C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48964FAA-028C-42E1-85BD-ED0E883ED4F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48964FAA-028C-42E1-85BD-ED0E883ED4F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48964FAA-028C-42E1-85BD-ED0E883ED4F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48964FAA-028C-42E1-85BD-ED0E883ED4F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -22,9 +22,7 @@ namespace ClsLibrary
         public int getAge()
         {
             int age = 0;
-
             age = DateTime.Now.Year - BDay.Year;
-
             return age;
         }
     }
