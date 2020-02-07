@@ -8,27 +8,32 @@ namespace MokinysLibrary
         public int ID { get; private set; }
         public string Vardas { get; private set; }
         public List<int> Pazymiai { get; set; }
+        public bool OlyNugaletjoas { get; private set; }
 
-        public Mokinys(int id, string vardas)
+        public Mokinys(int id, string vardas, bool olyWin)
         {
             this.ID = id;
             this.Vardas = vardas;
+            this.OlyNugaletjoas = olyWin;
             this.Pazymiai = new List<int>();
         }
 
         public decimal getVidurkis()
         {
             decimal sum = 0;
-
-            foreach (var item in Pazymiai)
+            
+            if (Pazymiai.Count >= 1)
             {
-                sum = sum + item;
+                foreach (var item in Pazymiai)
+                {
+                    sum = sum + item;
+                }
+                decimal vidurkis = sum / Pazymiai.Count;
+
+                return vidurkis;
+
             }
-            decimal vidurkis = sum / Pazymiai.Count;
-
-            return vidurkis;
+            else return 0;
         }
-
-        
     }
 }

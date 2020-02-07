@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mokinys3darbas", "Mokinys3darbas\Mokinys3darbas.csproj", "{6EC00BAF-4C54-4457-94B4-D7731F4FA132}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MokinysLibrary", "MokinysLibrary\MokinysLibrary.csproj", "{3D16C4BE-9DF4-4233-98BA-24471ECEEE45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MokinysLibrary", "MokinysLibrary\MokinysLibrary.csproj", "{3D16C4BE-9DF4-4233-98BA-24471ECEEE45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mokinys3darbas.test", "Mokinys3darbas.test\Mokinys3darbas.test.csproj", "{03B359C2-21FF-4142-A49E-523B324A3EB9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{3D16C4BE-9DF4-4233-98BA-24471ECEEE45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D16C4BE-9DF4-4233-98BA-24471ECEEE45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D16C4BE-9DF4-4233-98BA-24471ECEEE45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03B359C2-21FF-4142-A49E-523B324A3EB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03B359C2-21FF-4142-A49E-523B324A3EB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03B359C2-21FF-4142-A49E-523B324A3EB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03B359C2-21FF-4142-A49E-523B324A3EB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
